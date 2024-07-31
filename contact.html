@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media - My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .upper-footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color:white;
+            padding: 20px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .upper-footer > div {
+            flex: 1;
+            margin: 10px;
+        }
+        .fd {
+            margin-bottom: 10px;
+            position: relative;
+        }
+        .fd::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: black;
+            border-top: 1px dotted red;
+            margin-top: 5px;
+        }
+        /* hr {
+            margin: 10px 0;
+            border: none;
+            border-top: 1px solid white;
+        } */
+        .abc {
+            display: block;
+            margin-bottom: 5px;
+            color: rgb(245, 242, 242);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .upper-footer {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+        }
+    </style>
+</head>
+<div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="social-platforms.html">Follow Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5">
+        <section id="contact">
+            <h2 class="h">Contact</h2>
+            <div class="contact-container">
+                <div class="con-img">
+                    <img src="img/contact_me.jpg" alt="contact image" width="100%">
+                </div>
+                <div class="contact-info">
+                    <h2>Ganesh Kumar</h2>
+                    <a href="tel:+91 9381369610" class="phone-link">Call +91 9381369610</a>
+                    <a href="mailto:ganeshkumark813@gmail.com" class="contact-link email-link">Email: ganeshkumark813@gmail.com</a>
+                    <a href="https://maps.app.goo.gl/T1CwNAhqnCYeEQeXA" class="contact-link address-link" target="_blank">Visit 146/3 opps. boys high school, Mangapuram Road, Chandragiri, Tirupathi(D), Andhra Pradesh</a>
+                </div>
+            </div>
+        </section>
+        
+        
+    </main>
+    <div class="change">
+        <div class="prev">
+            <a href="social-platforms.html"> prev </a>
+        </div>
+        <div class="next">
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+
+    <div class="upper-footer">
+        <div class="location">
+            <h3 class="fd">Where to find me</h3>
+            <a href="https://www.google.com/maps/place/Tower+Clock+,+chandragiri+-+Tirupati/@13.5881559,79.3154821,201m/data=!3m1!1e3!4m6!3m5!1s0x3bb2b38a533aa8ed:0xb33fb65d8e6c099!8m2!3d13.5881559!4d79.3160293!16s%2Fg%2F1tkslt9b?hl=en&entry=ttu" class="abc"><p>Visit 146/3 opps. boys high school, Mangapuram Road, Chandragiri, Tirupathi(D), Andhra Pradesh
+            </p></a>
+        </div>
+        <div class="follow">
+            <h3 class="fd">Follow me</h3>
+            <a href="https://www.linkedin.com/in/kondigatti-ganesh-kumar/" class="abc">LinkedIn</a>
+            <a href="https://github.com/Ganesh8720" class="abc">GitHub</a>
+            <a href="" class="abc">Instagram</a>
+            <a href="https://leetcode.com/u/Kondigatti_Ganesh_Kumar/" class="abc">Leetcode</a>
+            <a href="https://www.geeksforgeeks.org/user/21121a2926/" class="abc">Geeks For Geeks</a>
+        </div>
+        <div class="c">
+            <h3 class="fd">Contact me</h3>
+            <p>ganeshkumark813@gmail.com</p>
+            <p>+91 9381369610</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 G@nesh. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
+
+
